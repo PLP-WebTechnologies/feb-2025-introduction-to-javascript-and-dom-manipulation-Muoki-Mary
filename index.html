@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to JavaScript and DOM Manipulation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        padding: 20px;
+      }
+      .hidden {
+        display: none;
+      }
+      .text-changed {
+        color: green;
+        font-size: 24px;
+      }
+      .new-element {
+        background-color: lightblue;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to JavaScript and DOM Manipulation!</h1>
+    </header>
+
+    <section>
+      <p id="intro-text">
+        This is a simple webpage where we manipulate the DOM using JavaScript.
+      </p>
+      <button id="changeTextBtn">Change Text Content</button>
+    </section>
+
+    <section>
+      <button id="changeStyleBtn">Change Text Style</button>
+    </section>
+
+    <section>
+      <button id="toggleElementBtn">Add/Remove Element</button>
+      <div id="new-element" class="hidden">
+        This is a new dynamically added element!
+      </div>
+    </section>
+
+    <footer>
+      <p>Created by Mary Muoki</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
